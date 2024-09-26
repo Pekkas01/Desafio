@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <form action="process.php" method="post">
+            <div><h2>Informações Básicas</h2></div>
+            
+            <div><label for="nome">Nome</label></div>
+            <div><input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" required></div>
+            
+            <div><label for="email">Email</label>
+            <div> <input type="email" id="email" name="email" placeholder="Digite seu email aqui" required></div>
+            
+            <div><input type="submit" value="Salvar"></div>
+        </form>
+    </div>
+</body>
+</html>
